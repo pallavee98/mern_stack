@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+
+    <!-- Adding internal css -->
+    <style>
+        .div{
+            background-color: aquamarine;
+            font-size: medium;
+            color: blue;
+        }
+    </style>
+    <!-- Adding external css -->
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    <!-- inline css -->
+    <div  class="div" style ="color: bisque; background-color: black;">
+        <h1>First css example</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates perspiciatis eos ut laboriosam commodi in sequi quisquam libero ea architecto expedita, numquam veritatis cupiditate unde.</p>
+    </div>
+    <div class="div">
+        <h2>Seccond</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure explicabo quia, voluptatem vel quae placeat molestias nesciunt voluptates tenetur provident accusantium quaerat iste veritatis aperiam.</p>
+    </div>
+    <div class="div">
+        <h3>third</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe voluptatem optio ex laborum culpa provident laboriosam illo eveniet cum adipisci officiis similique, totam accusamus tempore!</p>
+    </div>
+    
+</body>
+</html>
+
+<!-- Explaination
+    inline css : Inline css will override the external css and internal css .
+    internal css: Internal css written inside <style> tags and take precedences over external css
+    External css : External css written later and take precedence over internal css depends upon the order on external and internal css.
+ -->

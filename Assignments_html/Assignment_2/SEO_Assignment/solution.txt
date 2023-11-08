@@ -1,0 +1,47 @@
+Answer1 
+-----------------------------------------------------------
+SEO stands for “search engine optimization.” It’s the practice of increasing both the quality and quantity of website traffic, as well as exposure to your brand, through non-paid (also known as "organic") search engine results.
+A significant reason that SEO matters is because it helps online publishers appear within the results displayed by search engines. Search engines like Google and Bing each have their own methods of surfacing and formatting the content they display when a user enters a query into a search box
+1. Traditional Organic Results
+
+Google’s most familiar results are the traditional organic results, which consist of links to website pages ranked in a particular order based on Google’s algorithms. Search engine algorithms are a set of formulae the search engine uses to determine the relevance of possible results to a user’s query. In the past, Google commonly returned a page of 10 organic results for each query, but now this number can vary widely, and the number of results will differ depending on whether the searcher is using a desktop computer, mobile phone, or other device. Traditional organic results look like this, with each entry having a title, description, link to the source, and other features like dates
+2. SERP Features
+
+Beyond the traditional organic results, search engines can surface a variety of other displays which can be categorized under the umbrella term “SERP features”. 
+There are also additional SERP features for news results, hotel and travel results, shopping, FAQs, job listings, and more. SEO is important because it influences what search engines surface for all of these results and features.
+
+Answer 3
+---------------------------------------------------------------------------------------
+ meta tag is a HTML component that gives the metadata about a HTML document. MetaData can be characterized as data that gives the data of different information or basic information about information.
+USE OF META tag
+
+Automatic Refresh
+===================
+Automatic Refresh: A specified time will be mentioned in the meta tag after which the webpage will be automatically refreshed.
+http-equiv="refresh" content ="8" --> refresh afer 8 second.
+
+Specifying Author of the Webpage: MetaTag allows us to mention the name of the author of the webpage as follows.
+name="author" content="solution"
+
+Providing a Description of the web page: A brief description of the web page can be included in the Meta tag, which will help the web page rank on the internet.
+
+Answer 4
+--------------------------------------------------------------------------------------------------------------------
+Favcon
+===========
+You can use any image you like as your favicon.
+o add a favicon to your website, either save your favicon image to the root directory of your webserver, or create a folder in the root directory called images, and save your favicon image in this folder. A common name for a favicon image is "favicon.ico".
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Page Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
